@@ -25,4 +25,5 @@ It's fairly easy to write a test page that'd test the functionality of the `main
 Simply create an HTML file with the required elements (textbox, button, dropdown), and the dependencies can be easily mocked.  
 3. Cross-browser support  
 So obviously this works great with FF and Chrome, but IE is a different story, as usual.  
-Unfortunately, IE is so idiotic that I can't even install IE10 or 9 side by side with my IE11, so I'm stuck with the limited offering from the IE dev tools to simulate older versions. This means that I can't guarantee that this'll look the same (speifically flex in the top row) for all IE versions... (I would try browserstack if I had some more time, but even that's not an optimal solution)
+The app is fully functional on IE10 and 9, however, for IE9 on a very small screen, the UI looks significantly less attractive (since IE9 doesn't implement flex).    
+Had I had more time, and IE9 was a critical issue, I would've tried some workarounds (for example- http://stackoverflow.com/a/28709421)
