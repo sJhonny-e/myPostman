@@ -23,3 +23,6 @@ It's then very easy to display it with Prism, using `language-http`.
 2. Unit tests:  
 It's fairly easy to write a test page that'd test the functionality of the `mainController` module;  
 Simply create an HTML file with the required elements (textbox, button, dropdown), and the dependencies can be easily mocked.  
+3. Cross-browser support  
+So obviously this works great with FF and Chrome, but IE is a different story, as usual.  
+Unfortunately, IE is so idiotic that I can't even install IE10 or 9 side by side with my IE11, so I'm stuck with the limited offering from the IE dev tools to simulate older versions. This means that I can't guarantee that this'll look the same (speifically flex in the top row) for all IE versions... (I would try browserstack if I had some more time, but even that's not an optimal solution)
