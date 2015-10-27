@@ -13,7 +13,7 @@ window.myPostman.dataService = {
 			}
 
 			// TODO: return other interesting things, like headers 
-			callback(httpRequest.response);
+			callback(httpRequest.responseText);
 		};
 
 		httpRequest.open('GET', url);
