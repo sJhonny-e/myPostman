@@ -1,4 +1,5 @@
-.topRow {
+.topRow{
+	display: -ms-flexbox;
 	display: flex;
 
 	padding: 5px;
@@ -19,13 +20,15 @@
 
 #urlText {
 	flex: 15 100%;
+	-ms-flex: 2; 
+
 	max-width: 350px;
-	min-width: 0px;
 	border-radius:4px;
 }
 
 #typeSelect {
 	flex: 1 100%;
+	-ms-flex: 1;
 	max-width: 100px;
 }
 
@@ -60,6 +63,7 @@
 	transition: all 100ms ease-in-out;
 
 	width: auto; 
+	display: inline-block;
 }
 
 .myButton:hover {
