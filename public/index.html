@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Poor man's Postman</title>
+</head>
+<body>
+  	<div class="topRow">
+      <input type="text" id="urlText" disabled="disabled" />
+    	<select id="typeSelect" class="mySelect"></select>
+      <div class="myButton" id="goBtn"></div>
+    </div>
+  <div id="resultsDiv">
+  	<pre id="resultsText" ></pre>
+  </div>
+
+  <!--TODO: do they have a CDN for this library?-->
+  <link href="./styles/prism.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="./scripts/lib/prism.js"></script>
+
+  <!--TODO: concatinate and minify all of that stuff-->
+  <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+  <script type="text/javascript" src="./scripts/consts.js"></script>
+  <script type="text/javascript" src="./scripts/dataService.js"></script>
+  <script type="text/javascript" src="./scripts/translations.en-UK.js"></script>
+  <script type="text/javascript" src="./scripts/mainCtrl.js"></script>
+</body>
+</html>

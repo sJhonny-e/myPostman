@@ -1,0 +1,67 @@
+.topRow {
+	display: flex;
+
+	padding: 5px;
+	background-color: #29506D;
+
+	/* make the header sticky */
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+
+	width: 100%;
+}
+
+.topRow * {
+	margin: 3px 5px;
+}
+
+#urlText {
+	flex: 15 100%;
+	max-width: 350px;
+	min-width: 0px;
+	border-radius:4px;
+}
+
+#typeSelect {
+	flex: 1 100%;
+	max-width: 100px;
+}
+
+#goBtn {
+	margin-right: 10px;
+}
+
+#resultsDiv {
+	margin-top: 50px;
+}
+
+/* general stylings for selects and buttons */
+.mySelect {
+	padding:3px;
+	border-radius:4px;
+	background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+
+.myButton {
+	border: 0 none;
+	border-radius: 36px;
+	cursor: pointer;
+	padding: 8px 25px;
+	text-transform: none;
+	background-color: #AA7939;
+	color: #ffffff;
+	  
+	transition: all 100ms ease-in-out;
+
+	width: auto; 
+}
+
+.myButton:hover {
+	opacity: 0.7;
+}
